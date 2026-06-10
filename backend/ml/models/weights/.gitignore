@@ -1,0 +1,6 @@
+# ML model weights directory
+# Place exported .pt or .safetensors files here
+*.pt
+*.safetensors
+*.bin
+!.gitkeep

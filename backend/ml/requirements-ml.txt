@@ -1,0 +1,21 @@
+# ML Data Pipeline — Dependencies
+# Dùng cho data_pipeline.py
+
+# Data processing
+pandas>=2.2.0
+scikit-learn>=1.4.0
+
+# Dataset download
+kagglehub>=0.3.0
+datasets>=2.19.0      # HuggingFace datasets
+
+# Translation
+googletrans==4.0.0-rc.1
+
+# Vietnamese NLP
+underthesea>=6.8.0
+
+# Optional: MarianMT translation (nếu googletrans không hoạt động)
+# transformers>=4.40.0
+# sentencepiece>=0.2.0
+# torch>=2.0.0

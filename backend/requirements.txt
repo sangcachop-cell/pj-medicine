@@ -1,0 +1,32 @@
+# Backend — Drug-Pred AI
+# Python 3.11+
+
+# --- Web Framework ---
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+pydantic==2.11.3
+pydantic-settings==2.9.1
+
+# --- Database ---
+sqlalchemy[asyncio]==2.0.41
+asyncpg==0.30.0
+alembic==1.15.2
+
+# --- Auth ---
+python-jose[cryptography]==3.4.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.20
+
+# --- Redis ---
+redis==6.2.0
+
+# --- ML / NLP (sẽ được ML Engineer bổ sung) ---
+# torch>=2.0
+# transformers>=4.40
+# underthesea>=6.8
+# scikit-learn>=1.4
+# optuna>=3.6
+
+# --- Utils ---
+python-dotenv==1.1.0
+httpx==0.28.1

@@ -38,4 +38,19 @@ env/
 # Project specific
 .qwen
 *.csv
-.agent/
+.agents/
+
+# Node.js (frontend)
+node_modules/
+
+# ML model weights (too large for git)
+*.pt
+*.safetensors
+*.bin
+*.onnx
+
+# Docker
+.docker/
+
+# Logs
+*.log
